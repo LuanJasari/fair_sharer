@@ -2,15 +2,12 @@
 name = "fairsharer"
 version = "0.1.0"
 description = "A small project to distribute values fairly over time"
-authors = [
-    { name = "Your Name" }
-]
-readme = "README.md"
+authors = [{ name = "Luan" }]
 requires-python = ">=3.10"
-
 dependencies = []
 
 [tool.pytest.ini_options]
+pythonpath = ["."]
 testpaths = ["tests"]
 
 [tool.ruff]
@@ -19,6 +16,3 @@ target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F"]
-
-[tool.pytest.ini_options]
-pythonpath = ["."]
